@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:#89AA97;
+}
+
+
+.header__nav {
+    background-color: #000000;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #DA7F8F;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    border-radius: 12px;
+    padding-top: 12px;
+}
+
+.header__nav ul {
+    margin-right: 30px;
+}
+
+.header__nav a:hover {
+    color: #FF4646;
+    transition: all 0.7s;
+    background-color: rgba(255, 230, 230, 0.2);
+    border-radius: 12px;
+}
+
+.nav__container ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav__container ul li a {
+    display: block;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__container img {
+    width: 70;
+    height: 70px;
+    margin: auto 0;
+    margin-left: 30px;
+}
+
+.body__content{
+    color: white;
+    width: 75vw;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.body__content-content{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 25px;
+}
+
+.body__content-title{
+    font-size: 45px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.footer__container{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__container-container {
+    display: flex;
+    margin-right: 5em;
+    }
+
+.footer__container-container ul li {
+    list-style: none;
+
+}
+
+.footer__container-sections ul li a{
+    text-decoration: none;
+    color: #E9E2D0;
+    text-align: center;
+    
+}
+
+.footer__container-sections {
+    margin: 10px 30px 10px 30px;
+}
+
+.footer__sections-title {
+    font-size: 28px;
+    font-family: 'Shippori Antique', sans-serif;
+    color: #DA7F8F;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.footer__sections-contain {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.footer__sections-contain li a {
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.footer__container img{
+    width: 70;
+    height: 70px;
+    margin: auto 0;
+    margin-left: 30px;
+}
+
